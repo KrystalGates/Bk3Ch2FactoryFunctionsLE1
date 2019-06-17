@@ -4,3 +4,9 @@
 // Doctor's name
 // Specialty (Oncologist, pediatrician, etc...)
 // Address of practice
+
+const createDoctor = (name, specialty, address) => ({
+    "doctorName": name,
+    "doctorSpecialty": specialty,
+    "address": address
+})
